@@ -12,8 +12,8 @@ export const FIRM_INFO = {
     phoneDisplay: '(71) 3022-7480',
     phoneInternational: '+55 71 3022-7480',
     phoneHref: 'tel:+557130227480',
-    instagramHandle: '@ferreiraefreitasadvocacia',
-    instagramUrl: 'https://www.instagram.com/ferreiraefreitasadvocacia',
+    email: 'contato@ferreiraefreitas.adv.br',
+    emailHref: 'mailto:contato@ferreiraefreitas.adv.br',
   },
   officeAddress: {
     building: 'Condomínio Salvador Shopping Business',

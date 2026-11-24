@@ -17,15 +17,15 @@
 
 .footer__logo-wrap {
   display: inline-block;
-  background-color: var(--ff-sand);
-  padding: 0.45rem 0.85rem;
+  background-color: #E7D5C4;
+  padding: 0.65rem 1.15rem;
   border-radius: var(--radius-sm);
   margin-bottom: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .footer__logo {
-  height: 46px;
+  height: 64px;
   width: auto;
   display: block;
 }

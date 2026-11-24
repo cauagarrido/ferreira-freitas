@@ -1,4 +1,4 @@
-import logoImg from '../assets/logo-ferreira-freitas.png';
+import logoImg from '../assets/logo-navbar.png';
 import { FIRM_INFO } from '../data/firmData';
 import './Footer.css';
 
@@ -21,10 +21,7 @@ export default function Footer() {
             Telefone: <a href={contact.phoneHref}>{contact.phoneInternational}</a>
           </p>
           <p className="footer__phone" style={{ marginTop: '0.35rem' }}>
-            Instagram:{' '}
-            <a href={contact.instagramUrl} target="_blank" rel="noreferrer">
-              {contact.instagramHandle}
-            </a>
+            E-mail: <a href={contact.emailHref}>{contact.email}</a>
           </p>
         </div>
 

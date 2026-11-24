@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Menu, Phone, X } from 'lucide-react';
-import logoImg from '../assets/logo-ferreira-freitas.png';
+import logoImg from '../assets/logo-navbar.png';
 import { FIRM_INFO } from '../data/firmData';
 import './Navbar.css';
 
