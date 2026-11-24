@@ -22,15 +22,15 @@ export default function ContactSection() {
       <div className="container">
         <div className="contact__shell">
           <div className="contact__intro">
-            <span className="eyebrow">Contato e agendamento</span>
-            <h2 className="section-title">Fale diretamente com o escritório</h2>
+            <span className="eyebrow">Contato</span>
+            <h2 className="section-title">Fale diretamente com nossa equipe</h2>
             <p className="contact__text">
-              Para agendar uma consulta presencial no Salvador Shopping Business ou esclarecer
-              dúvidas iniciais sobre seu caso, utilize nossos canais diretos de atendimento.
+              Escolha o canal de sua preferência para agendar uma conversa inicial ou encaminhar
+              documentos para análise jurídica.
             </p>
             <div className="contact__hours-pill">
               <Clock size={16} aria-hidden="true" />
-              <span>Segunda a quinta: 08h30 às 18h · Sexta: 08h às 18h</span>
+              <span>Retorno ágil em horário comercial</span>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ export default function ContactSection() {
                   <Phone size={18} aria-hidden="true" />
                 </span>
                 <div>
-                  <span className="contact__channel-label">Telefone direto</span>
+                  <span className="contact__channel-label">Telefone</span>
                   <strong className="contact__channel-value">{contact.phoneDisplay}</strong>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default function ContactSection() {
                 <div>
                   <span className="contact__channel-label">E-mail</span>
                   <strong className="contact__channel-value">{contact.email}</strong>
-                  <span className="contact__channel-sub">Envie sua solicitação por e-mail</span>
+                  <span className="contact__channel-sub">Envie sua solicitação por escrito</span>
                 </div>
               </div>
             </a>
@@ -88,11 +88,9 @@ export default function ContactSection() {
                   <MapPin size={18} aria-hidden="true" />
                 </span>
                 <div>
-                  <span className="contact__channel-label">Atendimento presencial</span>
+                  <span className="contact__channel-label">Como chegar</span>
                   <strong className="contact__channel-value">{officeAddress.building}</strong>
-                  <span className="contact__channel-sub">
-                    {officeAddress.street}, {officeAddress.neighborhood} — Abrir rota
-                  </span>
+                  <span className="contact__channel-sub">Abrir localização no Google Maps</span>
                 </div>
               </div>
             </a>

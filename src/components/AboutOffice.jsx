@@ -6,18 +6,18 @@ import './AboutOffice.css';
 const PILLARS = [
   {
     icon: Scale,
-    title: 'Análise jurídica objetiva',
-    text: 'Diagnóstico claro de riscos, prazos e alternativas antes da tomada de decisão.',
+    title: 'Diagnóstico preciso',
+    text: 'Mapeamento de riscos, prazos e caminhos viáveis antes de qualquer medida judicial.',
   },
   {
     icon: MessageSquareText,
-    title: 'Comunicação direta',
-    text: 'Acompanhamento transparente, traduzindo o juridiquês em orientações práticas.',
+    title: 'Linguagem acessível',
+    text: 'Explicações diretas sobre cada movimentação, sem termos técnicos desnecessários.',
   },
   {
     icon: ShieldCheck,
-    title: 'Atuação preventiva e estratégica',
-    text: 'Estruturação documental pensada para proteger negócios, contratos e patrimônio.',
+    title: 'Prevenção de conflitos',
+    text: 'Revisão criteriosa de documentos e contratos para evitar litígios futuros.',
   },
 ];
 
@@ -35,11 +35,11 @@ export default function AboutOffice() {
 
         <div className="about__content reveal" style={{ '--reveal-delay': '100ms' }} data-parallax="0.05">
           <span className="eyebrow">O escritório</span>
-          <h2 className="section-title">Tradição técnica com visão contemporânea</h2>
+          <h2 className="section-title">Rigor técnico aliado à escuta atenta</h2>
           <p className="about__lead">
-            Constituído em {FIRM_INFO.legalRegistration.openedAt}, o escritório{' '}
-            <strong>{FIRM_INFO.brandName}</strong> combina atendimento personalizado com a
-            estrutura executiva do Caminho das Árvores, em Salvador.
+            Em atividade desde {FIRM_INFO.legalRegistration.openedAt}, a{' '}
+            <strong>{FIRM_INFO.brandName}</strong> construiu sua reputação com atendimento
+            individualizado, transparência nos pareceres e acompanhamento próximo de cada caso.
           </p>
 
           <div className="about__pillars">

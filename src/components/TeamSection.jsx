@@ -1,6 +1,6 @@
 import socioFerreiraImg from '../assets/socio-ferreira.jpg';
 import sociaFreitasImg from '../assets/socia-freitas.jpg';
-import { FIRM_INFO, PARTNERS } from '../data/firmData';
+import { PARTNERS } from '../data/firmData';
 import './TeamSection.css';
 
 const PHOTOS = {
@@ -14,12 +14,10 @@ export default function TeamSection() {
       <div className="container">
         <div className="team__header">
           <span className="eyebrow">Equipe</span>
-          <h2 className="section-title">Os sócios por trás do escritório</h2>
+          <h2 className="section-title">Sócios à frente de cada atendimento</h2>
           <p className="team__intro">
-            Fundado em {FIRM_INFO.legalRegistration.openedAt}, o escritório{' '}
-            <strong>{FIRM_INFO.fullName}</strong> oferece atendimento jurídico direto e
-            personalizado em Salvador, atuando nas áreas Previdenciária, Família, Sucessões,
-            Cível, Consumidor, Trabalhista e Imobiliário.
+            As demandas do escritório são conduzidas diretamente pelos sócios fundadores, garantindo
+            continuidade técnica e diálogo direto do primeiro contato à conclusão.
           </p>
         </div>
 
