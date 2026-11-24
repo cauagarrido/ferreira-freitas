@@ -1,0 +1,29 @@
+/* Paleta extraída diretamente da identidade visual Ferreira & Freitas + tipografia iOS */
+:root {
+  --ff-sand: #E7D5C4;
+  --ff-sand-soft: #F3EAE1;
+  --ff-cream: #FAF6F1;
+  --ff-white: #FFFFFF;
+
+  --ff-taupe: #6E635B;
+  --ff-charcoal: #3B3531;
+  --ff-espresso: #26221F;
+
+  --ff-bronze: #B0855B;
+  --ff-bronze-deep: #8C643E;
+  --ff-bronze-soft: #D7BFA8;
+
+  --ff-border: rgba(110, 99, 91, 0.22);
+  --ff-border-strong: rgba(110, 99, 91, 0.38);
+
+  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', system-ui, sans-serif;
+  --font-brand: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', system-ui, sans-serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', system-ui, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+
+  --shadow-soft: 0 18px 45px -20px rgba(38, 34, 31, 0.18);
+  --shadow-card: 0 10px 30px -15px rgba(38, 34, 31, 0.14);
+}

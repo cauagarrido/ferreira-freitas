@@ -1,0 +1,83 @@
+.about {
+  padding: clamp(3rem, 5vw, 4.5rem) 0;
+  background: transparent;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: center;
+}
+
+.about__media {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--ff-border-strong);
+  box-shadow: var(--shadow-soft);
+  aspect-ratio: 4 / 3;
+  background-color: var(--ff-sand);
+}
+
+.about__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__content {
+  background-color: rgba(250, 246, 241, 0.76);
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.about__lead {
+  color: var(--ff-charcoal);
+  margin: 0 0 1.65rem;
+}
+
+.about__pillars {
+  display: grid;
+  gap: 1.05rem;
+}
+
+.about__pillar {
+  display: flex;
+  gap: 0.95rem;
+  align-items: flex-start;
+  padding: 1rem 1.1rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--ff-border);
+  border-radius: var(--radius-md);
+}
+
+.about__pillar-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background-color: var(--ff-sand);
+  color: var(--ff-bronze-deep);
+  display: grid;
+  place-items: center;
+}
+
+.about__pillar-title {
+  margin: 0 0 0.2rem;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--ff-espresso);
+}
+
+.about__pillar-text {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ff-taupe);
+}
+
+@media (max-width: 860px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}
